@@ -1,0 +1,64 @@
+<svg width="680" height="330" viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="neofetch de Victor Santos: Software Engineer Intern, stack Node.js e TypeScript">
+  <style>
+    text {
+      font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+      font-size: 14px;
+    }
+    .ascii { fill: #cba6f7; font-weight: bold; }
+    .title { fill: #6c7086; font-size: 12px; }
+    .u   { fill: #a6e3a1; font-weight: bold; }
+    .sep { fill: #6c7086; }
+    .k   { fill: #89b4fa; font-weight: bold; }
+    .v   { fill: #cdd6f4; }
+    .ps1 { fill: #a6e3a1; font-weight: bold; }
+  </style>
+
+  <!-- janela do terminal -->
+  <rect x="1" y="1" width="678" height="328" rx="12" fill="#1e1e2e" stroke="#313244" stroke-width="2"/>
+  <circle cx="26" cy="24" r="6" fill="#f38ba8"/>
+  <circle cx="46" cy="24" r="6" fill="#f9e2af"/>
+  <circle cx="66" cy="24" r="6" fill="#a6e3a1"/>
+  <text x="340" y="28" text-anchor="middle" class="title">victor@vitozaap: ~</text>
+  <line x1="1" y1="44" x2="679" y2="44" stroke="#313244" stroke-width="2"/>
+
+  <!-- ascii art: V -->
+  <g xml:space="preserve">
+    <text x="40" y="126" class="ascii">██╗   ██╗</text>
+    <text x="40" y="148" class="ascii">██║   ██║</text>
+    <text x="40" y="170" class="ascii">██║   ██║</text>
+    <text x="40" y="192" class="ascii">╚██╗ ██╔╝</text>
+    <text x="40" y="214" class="ascii"> ╚████╔╝</text>
+    <text x="40" y="236" class="ascii">  ╚═══╝</text>
+  </g>
+
+  <!-- infos -->
+  <g xml:space="preserve">
+    <text x="180" y="86"><tspan class="u">victor</tspan><tspan class="sep">@</tspan><tspan class="u">vitozaap</tspan></text>
+    <text x="180" y="108" class="sep">───────────────</text>
+    <text x="180" y="130"><tspan class="k">OS</tspan><tspan class="sep">: </tspan><tspan class="v">Ubuntu</tspan></text>
+    <text x="180" y="152"><tspan class="k">Role</tspan><tspan class="sep">: </tspan><tspan class="v">Software Engineer Intern</tspan></text>
+    <text x="180" y="174"><tspan class="k">Stack</tspan><tspan class="sep">: </tspan><tspan class="v">Node.js · TypeScript</tspan></text>
+    <text x="180" y="196"><tspan class="k">IDE</tspan><tspan class="sep">: </tspan><tspan class="v">VSCode</tspan></text>
+    <text x="180" y="218"><tspan class="k">Uptime</tspan><tspan class="sep">: </tspan><tspan class="v">2 anos codando</tspan></text>
+    <text x="180" y="240"><tspan class="k">LinkedIn</tspan><tspan class="sep">: </tspan><tspan class="v">in/vitomenezes</tspan></text>
+    <text x="180" y="262"><tspan class="k">Email</tspan><tspan class="sep">: </tspan><tspan class="v">menezes.victorsantos@outlook.com</tspan></text>
+  </g>
+
+  <!-- paleta ansi (catppuccin mocha) -->
+  <g>
+    <rect x="180" y="278" width="24" height="14" fill="#45475a"/>
+    <rect x="204" y="278" width="24" height="14" fill="#f38ba8"/>
+    <rect x="228" y="278" width="24" height="14" fill="#a6e3a1"/>
+    <rect x="252" y="278" width="24" height="14" fill="#f9e2af"/>
+    <rect x="276" y="278" width="24" height="14" fill="#89b4fa"/>
+    <rect x="300" y="278" width="24" height="14" fill="#cba6f7"/>
+    <rect x="324" y="278" width="24" height="14" fill="#94e2d5"/>
+    <rect x="348" y="278" width="24" height="14" fill="#cdd6f4"/>
+  </g>
+
+  <!-- prompt com cursor piscando -->
+  <text x="40" y="312" class="ps1">❯</text>
+  <rect x="58" y="299" width="9" height="16" fill="#cdd6f4">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" keyTimes="0;0.5;1" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+</svg>
